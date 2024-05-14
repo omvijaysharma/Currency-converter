@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2> CURRENCY CONVERTER </h2>
+    <form>
+    <div class="amount">
+    <p>Enter</p>
+    </div>
+    <input  id="amtinput"value="1" type="number">
+    <div class="dropdown">
+                
+<!-- from -->
+                
+    <div class="from">
+    <p> from </p>
+    <div class="select-container">
+    <img src="https://flagsapi.com/US/flat/64.png" id="fromIMG">
+    <select name="from" id="fromCountry">
+    </select>
+    </div>
+    </div>
+                    
+    <p class="emoji">💱</p>
+                    
+    <!-- to -->
+                    
+    <div class="to">
+    <p> to </p>
+    <div class="select-container">
+    <img src="https://flagsapi.com/IN/flat/64.png" id="toIMG">
+    <select name="to" id="toCountry">
+    </select>
+    </div>      
+    </div>
+    </div>
+    <h4 id="msg"> ------------------ </h4>
+    <button id="button">Exchange</button>
+    </div>
+    
+    </form>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
